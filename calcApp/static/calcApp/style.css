@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+
+}
+
+form {
+  padding: 25px;
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+form h2 {
+  font-size: 27px;
+  text-align: center;
+  margin: 0px 0 30px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+form input,
+form select {
+  height: 45px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #9a9a9a;
+}
+
+form input.error,
+form select.error {
+  border-color: #f91919;
+  background: #f9f0f1;
+}
+
+form small {
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  color: #f91919;
+}
+
+form .password i {
+  position: absolute;
+  right: 0px;
+  height: 45px;
+  top: 28px;
+  font-size: 13px;
+  line-height: 45px;
+  width: 45px;
+  cursor: pointer;
+  color: #939393;
+  text-align: center;
+}
+
+.submit-btn {
+  margin-top: 30px;
+}
+
+.submit-btn input {
+  color: white;
+  border: none;
+  height: auto;
+  font-size: 16px;
+  padding: 13px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  background: #1BB295;
+  transition: 0.2s ease;
+}
+
+.submit-btn input:hover {
+  background: #179b81;
+}
+
+
+.container{
+  
+  width:100%;
+  display:grid;
+  
+}
+.sec {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0px 5px 6px #bbbbbb;
+  border-radius: 20px;
+}
+.right-card,
+.left-card {
+  flex: 1;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2rem;
+  background-image: linear-gradient(hsl(169.68deg 60.2% 27.64%), hsl(155.58deg 38.92% 33.93%));
+}
+
+.lc-h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #d6c8ff;
+}
+
+.lc-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  background-image: linear-gradient(#4e21ca, #2421ca00);
+}
+
+.lc-result {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+}
+
+.lc-total {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #d6c8ff;
+}
+
+.lc-grade {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.lc-remarks {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  color: #d6c8ff;
+}
+
+/* ------------------ */
+
